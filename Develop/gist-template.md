@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This is a quick tutorial of what Regex looks like and how it works. This can easily be broken down into simple easy to understand parts.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex is short for regular expression. It is a string of text that you can make to create search patterns that match, locate, and manage text. 
+Here is an example of Regex - /[\w._%+-]+@[\w.-]+\.[a-zA-z]{3,8}/
 
 ## Table of Contents
 
