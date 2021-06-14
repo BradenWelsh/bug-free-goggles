@@ -24,9 +24,21 @@ Here is an example of Regex - /[\w._%+-]+@[\w.-]+\.[a-zA-z]{3,8}/
 ## Regex Components
 
 ### Anchors
+Characters within the Regex within the regular expression that allow the user to match strings that begin with or ends with specific characters.
 
+These are some examples of Anchors
+`^` - Start of string or line
+`$` - End of string or line.
 ### Quantifiers
+Specify how many instances of a character, group, or character class must be present in the input for a match to be found.
 
+These are some examples of Quantifiers
+/X./; // matches any character
+/X*/; // Matches zero or several repetitions of letter X, is short for {0,}
+/X+-/; // matches one or more repetitions of letter X, is short for {1,}
+/X?/; // finds no or exactly one letter X, is short for is short for {0,1}.
+// d{3}; // matches three digits. {} describes the order of the preceding liberal
+// d{1,4} ; // means d must occur at least once and at a maximum of four
 ### OR Operator
 
 ### Character Classes
